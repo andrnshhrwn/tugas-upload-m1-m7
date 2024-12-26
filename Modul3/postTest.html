@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylePostTest.css">
+    <title>PostTest</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-content">
+        <img
+          src="assets/images/violet-evergarden-9.jpg"
+          alt="Violet Evergarden"
+        />
+      </div>
+      <div class="content">
+        <div class="judul">
+          <h2>Violet Evergarden</h2>
+        </div>
+        <div class="potongan-artikel hidden" id="artikel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            consectetur esse repudiandae velit aspernatur a non perspiciatis
+            deserunt odio, consequuntur optio soluta vero dolorem reprehenderit,
+            enim omnis exercitationem fugiat quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque, sit architecto magni dolorum nemo consequatur nulla excepturi quas vel sapiente libero incidunt vero odio praesentium, eligendi sunt delectus voluptate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsam temporibus voluptatem repudiandae error quod, distinctio veritatis cum minima quisquam voluptas quo autem, aut repellat? Possimus dolorem minima veritatis vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cupiditate saepe consequatur voluptate nostrum possimus eaque animi, repellat corporis eius omnis mollitia reprehenderit cumque eos accusantium error sequi fugit et! Lorem ipsum dolor sit amet consectetur adipisicing elit. A numquam explicabo expedita minus at ex, commodi distinctio voluptatibus ullam quasi rerum, ut doloribus fugiat beatae enim deserunt dolorum? Fugiat, nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt voluptatem consectetur, placeat quis deserunt iste, repellendus quo neque quod fuga doloremque saepe libero, praesentium minima soluta? Est, vitae neque?
+          </p>
+        </div>
+        <button onclick="clickHandler()">Baca Selengkapnya >> >></button>
+      </div>  
+    </div>
+    <script>
+      const artk = document.getElementById('artikel')
+      function clickHandler () {
+        artk.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>

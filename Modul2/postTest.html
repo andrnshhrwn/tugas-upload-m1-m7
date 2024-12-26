@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards {
+        border-radius: 20px;
+        padding: 0 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px 1px blue;
+      }
+      button {
+        width: 100px;
+        padding: 10px;
+        border: none;
+        background-color: red;
+        color: white;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <h1>Form Tambah Data Nilai Mata Kuliah</h1>
+      <form action="m2-2.html" method="post">
+        <table border="0">
+          <tr>
+            <td><label for="inputText">Nama Matakuliah</label></td>
+            <td><input type="text" name="mataKuliah" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nama Dosen</label></td>
+            <td><input type="text" name="dosen" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nama Mahasiswa</label></td>
+            <td><input type="text" name="mahasiswa" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Jumlah Kehadiran</label></td>
+            <td><input type="number" name="kehadiran" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai Tugas</label></td>
+            <td><input type="number" name="tugas" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai Quiz</label></td>
+            <td><input type="number" name="quiz" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai UTS</label></td>
+            <td><input type="number" name="uts" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai UAS</label></td>
+            <td><input type="number" name="uas" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai Akhir</label></td>
+            <td><input type="number" name="nilaiAkhir" /></td>
+          </tr>
+          <tr>
+            <td><label for="inputText">Nilai Huruf</label></td>
+            <td><input type="text" name="nilaiHuruf" maxlength="1" /></td>
+          </tr>
+          <tr>
+            <td>
+              <button name="save" style="background-color: green">
+                SIMPAN
+              </button>
+              <button type="reset" name="cancle">BATAL</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

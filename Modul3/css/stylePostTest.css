@@ -1,0 +1,72 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: inherit;
+  display: flex;
+  gap: 20px;
+}
+
+.image-content {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.content .judul {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.content .potongan-artikel {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  scrollbar-width: none;
+  text-align: start;
+}
+
+.hidden {
+  height: 160px;
+  overflow: hidden;
+}
+
+.active {
+  height: auto;
+}
+
+.content button {
+  padding: 10px;
+  border: none;
+  background-color: inherit;
+  color: blue;
+  text-align: end;
+}

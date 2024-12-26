@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Hotel</title>
+    <style>
+      .checkmark {
+        font-size: 20px;
+      }
+      table thead {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Data kamar -->
+    <div class="data-kamar">
+      <h2>Data Kamar</h2>
+      <table border="1" style="text-align: center;">
+        <thead>
+          <tr>
+            <th>id kamar</th>
+            <th>gambar ruangan</th>
+            <th>jenis kamar</th>
+            <th>harga</th>
+            <th>fasilitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>R1</td>
+            <td><img src="image/ruangan1ranjang.jpg" alt="ruangan-1-ranjang" width="200px"></td>
+            <td>Single Room</td>
+            <td>Rp.350.000</td>
+            <td>TV, AC, Kamar mandi</td>
+          </tr>
+          <tr>
+            <td>R2</td>
+            <td><img src="image/ruangan2ranjang.jpg" alt="ruangan-2-ranjang" width="200px"></td>
+            <td>Twin Room</td>
+            <td>Rp.450.000</td>
+            <td>TV, AC, Kamar mandi shower, wi-fi</td>
+          </tr>
+          <tr>
+            <td>R3</td>
+            <td><img src="image/ruangan3ranjang.jpg" alt="ruangan-3-ranjang" width="200px"></td>
+            <td>Triple Room</td>
+            <td>Rp.700.000</td>
+            <td>TV, AC, Kamar mandi shower, wi-fi</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Fasilitas -->
+    <div class="fasilitas">
+      <h2>Fasilitas</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>nama</th>
+            <th>fasilitas</th>
+            <th>harga weekend</th>
+            <th>harga weekday</th>
+            <th>kuota</th>
+            <th>jam buka</th>
+            <th>jam tutup</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>F1</td>
+            <td>SPA</td>
+            <td>Layanan SPA dan Pijat</td>
+            <td>Rp.400.000</td>
+            <td>Rp.350.000</td>
+            <td>1 Orang</td>
+            <td>09.00</td>
+            <td>21.00</td>
+          </tr>
+          <tr>
+            <td>F2</td>
+            <td>Breakfast</td>
+            <td>Sarapan pagi dengan nyaman dan santai</td>
+            <td>Rp.200.000</td>
+            <td>Rp.150.000</td>
+            <td>2 Orang</td>
+            <td>08.00</td>
+            <td>11.00</td>
+          </tr>
+          <tr>
+            <td>F3</td>
+            <td>Sauna</td>
+            <td>Sauna tradisional seperti di jepang yang akan membuat anda relax</td>
+            <td>Rp.250.000</td>
+            <td>Rp.200.000</td>
+            <td>1 Orang</td>
+            <td>08.00</td>
+            <td>23.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Data pemesanan -->
+    <div class="data-pemesanan">
+      <h2>Data Pemesanan</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th rowspan="2">id</th>
+            <th rowspan="2">tanggal pesan</th>
+            <th rowspan="2">pemesan</th>
+            <th rowspan="2">jenis kamar</th>
+            <th rowspan="2">check in</th>
+            <th rowspan="2">check out</th>
+            <th colspan="2">fasilitas</th>
+          </tr>
+          <tr>
+            <th style="background-color: green;">Ya</th>
+            <th style="background-color: red;">Tidak</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>P1</td>
+            <td>27 Oktober 2024</td>
+            <td>Ryan</td>
+            <td>Single Room</td>
+            <td>27 Oktober 2024</td>
+            <td>28 Oktober 2024</td>
+            <td><span class="checkmark" style="color: green;">&#10003;</span></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>P2</td>
+            <td>28 Oktober 2024</td>
+            <td>Richard</td>
+            <td>Triple Room</td>
+            <td>27 Oktober 2024</td>
+            <td>04 November 2024</td>
+            <td><span class="checkmark" style="color: green;">&#10003;</span></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>P3</td>
+            <td>28 Oktober 2024</td>
+            <td>Raymond</td>
+            <td>Single Room</td>
+            <td>28 Oktober 2024</td>
+            <td>29 Oktober 2024</td>
+            <td></td>
+            <td><span class="checkmark" style="color: red;">&#10003;</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

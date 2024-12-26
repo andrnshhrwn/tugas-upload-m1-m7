@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <script src="./../assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./../bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Data Anggota</h1>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+          <thead class="table-dark">
+            <tr>
+              <th>No</th>
+              <th>Kode Anggota</th>
+              <th>NIM</th>
+              <th>Nama Lengkap</th>
+              <th>Prodi</th>
+              <th>Kelas</th>
+              <th>Jenis Kelamin</th>
+              <th>No Telepon</th>
+              <th>Foto</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Contoh data -->
+            <tr>
+              <td>1</td>
+              <td>AG001</td>
+              <td>20230810018</td>
+              <td>Andriansah Herawan</td>
+              <td>Teknik Informatika</td>
+              <td>TI-01</td>
+              <td>Laki-laki</td>
+              <td>081564743633</td>
+              <td>
+                <img
+                  width="80px"
+                  src="assets/andri.png"
+                  class="img-fluid rounded-circle"
+                  alt="Foto Anggota"
+                />
+              </td>
+              <td>Kuningan</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>AG002</td>
+              <td>20230810001</td>
+              <td>Aditya</td>
+              <td>Teknik Informatika</td>
+              <td>TI-01</td>
+              <td>Laki-laki</td>
+              <td>08129876543</td>
+              <td>
+                <img
+                  width="80px"
+                  src="assets/aditya.png"
+                  class="img-fluid rounded-circle"
+                  alt="Foto Anggota"
+                />
+              </td>
+              <td>Kuningan</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>AG002</td>
+              <td>20230810002</td>
+              <td>Lindan</td>
+              <td>Teknik Informatika</td>
+              <td>TI-01</td>
+              <td>Laki-laki</td>
+              <td>08129876588</td>
+              <td>
+                <img
+                  width="80px"
+                  src="assets/lindan.png"
+                  class="img-fluid rounded-circle"
+                  alt="Foto Anggota"
+                />
+              </td>
+              <td>Kuningan</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>AG002</td>
+              <td>20230810001</td>
+              <td>Aditya</td>
+              <td>Teknik Informatika</td>
+              <td>TI-01</td>
+              <td>Laki-laki</td>
+              <td>08129876543</td>
+              <td>
+                <img
+                  width="80px"
+                  src="assets/reyhan.png"
+                  class="img-fluid rounded-circle"
+                  alt="Foto Anggota"
+                />
+              </td>
+              <td>Kuningan</td>
+            </tr>
+            <!-- Tambahkan data anggota lainnya -->
+          </tbody>
+        </table>
+      </div>
+      <!-- Pagination -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+              >Previous</a
+            >
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="./../bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
